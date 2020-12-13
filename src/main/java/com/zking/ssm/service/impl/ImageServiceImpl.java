@@ -3,8 +3,10 @@ package com.zking.ssm.service.impl;
 import com.zking.ssm.model.Image;
 import com.zking.ssm.service.IImageService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional
 public class ImageServiceImpl implements IImageService {
     @Override
     public int deleteByPrimaryKey(Integer id) {

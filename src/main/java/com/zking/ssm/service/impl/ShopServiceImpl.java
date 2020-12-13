@@ -3,8 +3,10 @@ package com.zking.ssm.service.impl;
 import com.zking.ssm.model.Shop;
 import com.zking.ssm.service.IShopService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional
 public class ShopServiceImpl implements IShopService {
     @Override
     public int deleteByPrimaryKey(Integer id) {

@@ -3,8 +3,10 @@ package com.zking.ssm.service.impl;
 import com.zking.ssm.model.Evaluation;
 import com.zking.ssm.service.IEvaluationService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional
 public class EvaluationServiceImpl implements IEvaluationService {
     @Override
     public int deleteByPrimaryKey(Integer id) {

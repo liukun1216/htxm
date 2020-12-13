@@ -3,8 +3,10 @@ package com.zking.ssm.service.impl;
 import com.zking.ssm.model.CommodityOrderDetail;
 import com.zking.ssm.service.ICommodityOrderDetailService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional
 public class CommodityOrderDetailServiceImpl implements ICommodityOrderDetailService {
     @Override
     public int deleteByPrimaryKey(Integer id) {

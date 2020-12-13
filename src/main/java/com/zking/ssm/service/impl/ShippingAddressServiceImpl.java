@@ -3,8 +3,10 @@ package com.zking.ssm.service.impl;
 import com.zking.ssm.model.ShippingAddress;
 import com.zking.ssm.service.IShippingAddressService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional
 public class ShippingAddressServiceImpl implements IShippingAddressService {
     @Override
     public int deleteByPrimaryKey(Integer id) {

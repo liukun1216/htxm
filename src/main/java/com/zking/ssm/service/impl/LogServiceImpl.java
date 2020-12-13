@@ -3,8 +3,10 @@ package com.zking.ssm.service.impl;
 import com.zking.ssm.model.Log;
 import com.zking.ssm.service.ILogService;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service
+@Transactional
 public class LogServiceImpl implements ILogService {
     @Override
     public int deleteByPrimaryKey(Integer id) {
