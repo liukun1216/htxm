@@ -2,6 +2,9 @@ package com.zking.ssm.model;
 
 import lombok.Data;
 
+/**
+ * 银行卡
+ */
 @Data
 public class Bankcard {
     private Integer id;

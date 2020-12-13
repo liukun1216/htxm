@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.Date;
 @Data
+/**
+ *评价
+ */
 public class Evaluation {
     private Integer id;
 

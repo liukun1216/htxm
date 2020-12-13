@@ -2,6 +2,9 @@ package com.zking.ssm.model;
 
 import lombok.Data;
 
+/**
+ * 管理员
+ */
 @Data
 public class Administrator {
     private Integer id;

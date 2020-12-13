@@ -2,6 +2,9 @@ package com.zking.ssm.model;
 
 import lombok.Data;
 
+/**
+ *订单明细
+ */
 @Data
 public class CommodityOrderDetail {
     private Integer id;

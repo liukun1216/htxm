@@ -2,6 +2,9 @@ package com.zking.ssm.model;
 
 import lombok.Data;
 
+/**
+ * 店铺
+ */
 @Data
 public class Shop {
     private Integer id;

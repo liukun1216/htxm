@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.Date;
 @Data
+/**
+ * 日志
+ */
 public class Log {
     private Integer id;
 

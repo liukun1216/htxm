@@ -3,6 +3,9 @@ package com.zking.ssm.model;
 import lombok.Data;
 
 @Data
+/**
+ * 图片
+ */
 public class Image {
     private Integer id;
 

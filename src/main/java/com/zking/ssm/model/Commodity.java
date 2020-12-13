@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.Date;
 
+/**
+ * 商品
+ */
 @Data
 public class Commodity {
     private Integer id;

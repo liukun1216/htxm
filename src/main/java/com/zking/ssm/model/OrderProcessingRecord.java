@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.util.Date;
 @Data
+/**
+ *订单处理记录
+ */
 public class OrderProcessingRecord {
     private Integer id;
 
